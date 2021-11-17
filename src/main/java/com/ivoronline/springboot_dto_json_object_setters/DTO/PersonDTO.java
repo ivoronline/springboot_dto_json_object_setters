@@ -3,11 +3,11 @@ package com.ivoronline.springboot_dto_json_object_setters.DTO;
 public class PersonDTO {
 
   //PROPERTIES
-  public String  name;
-  public Integer age;
+  public String  propName;
+  public Integer propAge;
 
   //SETTERS
-  private void setName(String  name) { this.name = name; }
-  private void setAge (Integer age ) { this.age  = age;  }
+  private void setName(String  reqName) { this.propName = reqName; }
+  private void setAge (Integer reqAge ) { this.propAge  = reqAge;  }
 
 }
