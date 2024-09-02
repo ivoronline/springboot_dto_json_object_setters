@@ -9,12 +9,12 @@ public class PersonDTO {
   //SETTERS
   public void setName(String  reqName) {
     System.out.println("setName()");
-    propName = reqName;
+    this.propName = reqName;
   }
   
   public void setAge (Integer reqAge ) {
     System.out.println("setAge()" );
-    propAge = reqAge;
+    this.propAge = reqAge;
     if(propAge == null) { propAge = 0; }
   }
   
